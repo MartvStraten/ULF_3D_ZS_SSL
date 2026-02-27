@@ -1,5 +1,5 @@
 # ULF-ZS-SSL
-This repository provides a PyTorch implementation for training and deploying time-conditioned 3D zero-shot self-supervised learning for ultra-low-field MRI reconstruction (ULF-ZS-SSL). For the original ZS-SSL implementation in PyTorch, please visit ([here](https://github.com/byaman14/ZS-SSL-PyTorch)).
+This repository provides a PyTorch implementation for training and deploying time-conditioned 3D zero-shot self-supervised learning for ultra-low-field MRI reconstruction (ULF-ZS-SSL). For the original ZS-SSL implementation in PyTorch, please visit [here](https://github.com/byaman14/ZS-SSL-PyTorch).
 
 <img src="figs/ulf_zs_ssl_overview.png" align="center" width="750px"> <br>
 
@@ -20,7 +20,7 @@ The dependencies can be installed using pip install. When using a GPU, always ma
 ```bash
 pip install -r requirements.txt
 ```
-For extra implementation details or a different installation guide, we recommend to visit the original ZS-SSL Github repository ([here](https://github.com/byaman14/ZS-SSL-PyTorch)).
+For extra implementation details or a different installation guide, we recommend to visit the original ZS-SSL Github repository [here](https://github.com/byaman14/ZS-SSL-PyTorch).
 
 ## Datasets
 Three fully-sampled ultra-low-field datasets with IR-T1w, T1w, and T2w contrasts are available in this repository.
