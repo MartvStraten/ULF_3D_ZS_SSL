@@ -26,7 +26,7 @@ For extra implementation details or a different installation guide, we recommend
 Three fully-sampled ultra-low-field datasets with IR-T1w, T1w, and T2w contrasts are available in this repository.
 
 ## Hardware requirements
-The current implementation of the code supports training on a GPU. The amount of GPU memory used is dependent on the number of unrolls and ResNet blocks you use. In the current implementation with 5 unrolled iterations and 5 ResNet blocks, it is recommended to use a GPU with 24+ GB of memory. Inference can be run on CPU as well but will be slower.
+The current implementation of the code supports training on a GPU. The amount of GPU memory used is dependent on the number of unrolls and ResNet blocks you use. In the current implementation with 5 unrolled iterations and 5 ResNet blocks, it is recommended to use a GPU with 24+ GB of memory. Inference can be run on CPU as well but will be much slower.
 
 ## Expected results
 After training the model using `ulf_3d_zs_ssl_recon.ipynb` and running the inference using `ulf_3d_zs_ssl_inference.ipynb`, the following output can be expected. From left to right: the fully-sampled input image, the retrospectively undersampled zero-filled model input, and the ULF-ZS-SSL model output.
